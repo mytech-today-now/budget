@@ -1,0 +1,117 @@
+{
+  "version": "0.1.0",
+  "modules": [
+    {
+      "name": "coding-standards/bash",
+      "version": "1.0.0",
+      "type": "coding-standards",
+      "description": "Comprehensive Bash coding standards for professional, maintainable, and secure Bash scripts across automation, CI/CD, CLI tools, configuration, data processing, system administration, and cross-platform development."
+    },
+    {
+      "name": "coding-standards/powershell",
+      "version": "1.0.0",
+      "type": "coding-standards",
+      "description": "Comprehensive PowerShell coding standards for professional, maintainable, and secure PowerShell code across automation, modules, DSC, cloud orchestration, administrative tools, cross-platform scripts, and legacy migrations."
+    },
+    {
+      "name": "coding-standards/python",
+      "version": "1.1.0",
+      "type": "coding-standards",
+      "description": "Comprehensive Python coding standards including naming conventions, type hints (PEP 484, 585, 604), and error handling"
+    },
+    {
+      "name": "coding-standards/typescript",
+      "version": "2.0.0",
+      "type": "coding-standards",
+      "description": "Comprehensive TypeScript coding standards and best practices including modern features, tooling, testing, architecture, and security"
+    },
+    {
+      "name": "domain-rules/api-design",
+      "version": "1.0.0",
+      "type": "domain-rules",
+      "description": "Comprehensive API design guidelines including REST, GraphQL, versioning, and best practices"
+    },
+    {
+      "name": "domain-rules/database",
+      "version": "1.0.0",
+      "type": "domain-rules",
+      "description": "Comprehensive database design guidelines including schema design, normalization, indexing, and best practices"
+    },
+    {
+      "name": "domain-rules/security",
+      "version": "1.0.0",
+      "type": "domain-rules",
+      "description": "Comprehensive security guidelines including OWASP best practices, authentication, encryption, and secure coding"
+    },
+    {
+      "name": "domain-rules/software-architecture",
+      "version": "1.0.0",
+      "type": "domain-rules",
+      "description": "Comprehensive software architecture design patterns, principles, and best practices covering monolithic, microservices, event-driven, serverless, and industry-specific architectures"
+    },
+    {
+      "name": "examples/design-patterns",
+      "version": "1.0.0",
+      "type": "examples",
+      "description": "Common design patterns with TypeScript/JavaScript implementations and use cases"
+    },
+    {
+      "name": "examples/rest-api-plugin",
+      "version": "1.0.0",
+      "type": "examples",
+      "description": "Complete REST API plugin examples with custom endpoints (GET, POST, PUT, DELETE), authentication, validation, error handling, and JavaScript client examples"
+    },
+    {
+      "name": "workflows/adr-support",
+      "version": "1.0.0",
+      "type": "workflow",
+      "description": "Automatic Architecture Decision Record (ADR) management with decision detection, lifecycle tracking, templates, and integration with OpenSpec and Beads workflows"
+    },
+    {
+      "name": "workflows/beads",
+      "version": "1.0.0",
+      "type": "workflows",
+      "description": "Distributed, git-backed graph issue tracker for AI agents. Provides persistent, structured memory for coding agents with dependency tracking."
+    },
+    {
+      "name": "workflows/beads-integration",
+      "version": "1.0.0",
+      "type": "workflow",
+      "description": "Comprehensive guidelines and automation for AI-driven Beads task generation, OpenSpec decomposition, and workflow integration"
+    },
+    {
+      "name": "workflows/database",
+      "version": "1.0.0",
+      "type": "workflow",
+      "description": "Comprehensive workflow for database design, schema development, migration management, optimization, and testing. Covers relational, NoSQL, vector, and flat databases."
+    },
+    {
+      "name": "domain-rules/mcp",
+      "version": "1.0.0",
+      "type": "domain-rules",
+      "description": "Comprehensive guidelines for designing and implementing Model Context Protocol systems including token-based, state-based, vector-based, hybrid, graph-augmented, and compressed MCP"
+    },
+    {
+      "name": "coding-standards/html",
+      "version": "1.0.0",
+      "type": "coding-standards",
+      "description": "Comprehensive HTML coding standards for modern web development with semantic HTML, accessibility guidelines, and HTML5 features"
+    },
+    {
+      "name": "coding-standards/html-css-js",
+      "version": "1.0.0",
+      "type": "coding-standards",
+      "description": "Comprehensive HTML/CSS/JavaScript coding standards for modern web development with semantic HTML, modern CSS features, and ES6+ JavaScript"
+    },
+    {
+      "name": "coding-standards/js",
+      "version": "1.0.0",
+      "type": "coding-standards",
+      "description": "Comprehensive JavaScript coding standards for modern web development with ES6+, DOM manipulation, async patterns, and framework integration"
+    }
+  ],
+  "settings": {
+    "autoUpdate": false,
+    "checkUpdatesOnInit": true
+  }
+}

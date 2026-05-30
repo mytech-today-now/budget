@@ -1,0 +1,111 @@
+# ---- Operating systems ----
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---- Editors / IDEs ----
+.vscode/
+!.vscode/settings.json.example
+.idea/
+*.iml
+*.swp
+*.swo
+*~
+.history/
+.project
+.settings/
+.classpath
+nbproject/
+
+# ---- AI agent local caches & per-user state ----
+# (Checked-in agent config like .augment/rules/ stays committed; only caches
+#  and per-user scratch files are ignored.)
+.aider*
+!.aider.conf.yml
+.claude/cache/
+.claude/local/
+.cursor/cache/
+.cline/cache/
+.roo/cache/
+.windsurf/cache/
+.augment/cache/
+.copilot/cache/
+
+# ---- Logs & temp files ----
+*.log
+*.log.*
+logs/
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*~.nib
+
+# ---- Environment & secrets ----
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+*.secrets
+
+# ---- Node.js / JS tooling (if added later) ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+.npm/
+.yarn/cache
+.yarn/install-state.gz
+
+# ---- Python (if added later) ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+htmlcov/
+
+# ---- PowerShell ----
+*.ps1.bak
+PSScriptAnalyzerSettings.psd1.bak
+
+# ---- Build / dist artifacts ----
+dist/
+build/
+out/
+target/
+bin/
+obj/
+
+# ---- Docker local state ----
+.docker/
+docker-compose.override.yml
+
+# ---- Misc local scratch ----
+scratch/
+tmp/
+.tmp/
+*.local
+*.local.*
