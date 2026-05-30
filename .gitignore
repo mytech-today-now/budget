@@ -8,6 +8,9 @@ ehthumbs_vista.db
 Desktop.ini
 $RECYCLE.BIN/
 *.lnk
+scripts/
+ai-prompts/
+.augment/
 
 # ---- Editors / IDEs ----
 .vscode/
