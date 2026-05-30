@@ -146,6 +146,4 @@ step for your tool.
 
 ```
 .agents/budget-rule-SKILL.md   The SKILL (the star of this repo)
-ai-prompts/                    Auxiliary prompt material
-scripts/                       Auxiliary PowerShell tooling — see scripts/README.md
 ```
